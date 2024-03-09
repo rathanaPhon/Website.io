@@ -1,5 +1,5 @@
  <script src="https://rathanaphon.github.io/wedpage/"></script> 
- function buttononlick(num) {
+ function buttonohamlick(num) {
      $(document).ready(function(num){
          console.log("if");
             $.ajax({

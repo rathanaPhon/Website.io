@@ -46,14 +46,6 @@ ul{
   margin:0;
   padding:0;
 }
-button_1 {
-  height:38px;
-  background: #4064ff;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
 .active .line1{
   transform: rotate(-45deg) translate(-5px, 5px);
 }
@@ -70,8 +62,8 @@ nav ul {
   left: -50%;
   position: fixed;
   height: 100vh;
-  width: 50%;
-  background:#111;
+  width: 30%;
+  background: wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +83,7 @@ ul li:hover{
   width:93%; 
 }
 li a{
-  color: ;
+  color: auto;
 }
 .grid-container {
    display: grid;
@@ -101,11 +93,11 @@ li a{
 .card > img { 
   width: 200px;
   height: 300px;
-  border: 5px solid;
+  border: 5px solid cadetblue;
   padding: 10px;    
   text-align: center;
   background: url();
-  box-shadow: 15px 30px rgba(0,0,0,0.30);
+  box-shadow: 30px 30px;
   box-sizing: border-box;
   display: auto;
 }
@@ -129,3 +121,6 @@ footer-il {
    margin: 0px;  
    background: #ff3f15; 
  }
+ p{
+    margin: auto;
+  }

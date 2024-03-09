@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  Webpage networks:
+    image: Webpage
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
+    redis:
+       image: redis:listest
+    db:
+       image: mongo:listest
