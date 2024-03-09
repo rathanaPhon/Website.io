@@ -48,7 +48,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-Y0MDY9RQY0"
  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  </head>
+ </head>
+<body>
+   <div class="footer">
+      </footer> 
+    <div id="main">
+      <div id="header" class="basic" style="margin-bottom:40px">
+         <div class="site">
+      <div>
+<header>
+  <nav>
+    <ul id="ul">
+      <h1>MENU</h1><br>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">PAGES</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </nav>
+  
+    <div id="hamMenu" class="ham" onclick="hamMenuClick()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <br>
+    </div>
+      <div class="company">
+    <sectio>
+ </div>
+   <div class="tgreviews__form-row">
+  </header>
 <body>       
      <h1>Rathana.online.store</h1>
   <div>
@@ -207,6 +235,10 @@ Address :
 <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/15.0.6/qrcode.min.js" integrity="sha-256%3A 90906ad11a0769edfb02946559622ae1a52735de60d2887b64b6ed5f1b792089;" crossorigin="anonymous"></script>
    <script type="text/javascript">
+    function hamMenuClick(){
+    document.getElementById("hamMenu").classList.toggle("active");
+    document.getElementById("ul").classList.toggle("link");
+   }
 map = new
 google.maps.Map(document.getElementById('map'), {
   center: {lat: -34.397, lng: 150.644},
