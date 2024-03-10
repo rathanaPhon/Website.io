@@ -103,7 +103,7 @@ li a{
    height: 300px;
    border: 5px solid;
    padding: 10px;    
-   text-align: center;
+   text-align: none;
    background: url("image/rathanaphon.jpg");
    box-shadow: 0 15px 30px rgba(0,0,0,0.30);
    box-sizing: border-box;
