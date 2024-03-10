@@ -78,7 +78,7 @@ nav ul {
   justify-content: center;
 }
 ul h1{
-  color: #ffff;
+  color: #fffff;
 }
 ul li{
   text-align:center;
@@ -91,7 +91,7 @@ ul li:hover{
   width:93%; 
 }
 li a{
-  color: ;
+  color: #fffff;
 }
 .grid-container {
    display: grid;
@@ -124,5 +124,5 @@ footer-a {
 }
 .text{
   padding:1px 10px 1px 10px;
-  color:#ffff;
+  color:#fffff;
 }
