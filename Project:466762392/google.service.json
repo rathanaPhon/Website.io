@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "466762392",
+    "github_url": "https://rathanaphon.github.io/",
+    "project_id": "Wedpage-project",
+    "storage_bucket": "Wedpage-project.appspot.com",
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466762392:android:9b9ba2ce17104d0c",
+        "android_client_info": {
+          "package_name": "rathanaphon.github.io",
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466762392-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rathanaphon.github.io.",
+            "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
+          }
+        },
+        {
+          "client_id": "466762392-kuq7unu52cngmd7qif6hsn39ddam86j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rathanaphon.github.io",
+            "certificate_hash": "82e978eb1421232ea5c0bbe386456dee237815d62e4954c3ace17d7f5c65951a",
+          }
+        },
+        {
+          "client_id": "466762392-1i5fo70r8rc8499b4uih06t3uqp1no7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaScD-GAaAksJ5EkR5Q",
+        } 
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466762392-1i5fo70r8rc8499b4uih06t3uqp1no7o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "466762392-en14pgt2nlf7icckmpm3jh2d7u0kcdpq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.test.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+  }
+
