@@ -33,6 +33,11 @@ body {
   height: 3px;
   margin: 2px;
 }
+input{
+  width:70%;
+  margin-bottom:10px;
+  padding:10px;
+}
 button {
   height:38px;
   background: #4064ff;
