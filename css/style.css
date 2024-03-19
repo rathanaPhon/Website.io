@@ -38,6 +38,13 @@ input{
   margin-bottom:10px;
   padding:10px;
 }
+#textToSearch{
+  border:1px solid grey;
+  padding:5px 5px;
+  height:20px;
+  width:70%;
+  border-radius:2px;
+}
 button {
   height:38px;
   background: #4064ff;
