@@ -129,7 +129,7 @@ li a{
    box-sizing: border-box;
    display: auto;
 }
-.fa {
+.ul > fa {
   width: 20px;
 }
 footer {
