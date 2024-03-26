@@ -129,6 +129,9 @@ li a{
    box-sizing: border-box;
    display: auto;
 }
+.fa {
+  width: 20px;
+}
 footer {
   padding:20px;
   margin-top:20px;
