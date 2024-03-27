@@ -10,6 +10,7 @@ user-select: none;
 outline: none;
 }
 body {
+font-family: sans-serif;
 background-color: White;
 }
 .ham {
@@ -93,8 +94,8 @@ margin-top:25px;
 #textToSearch{
 border:1px solid grey;
 padding:5px 5px;
-height:20px;
-width:70%;
+height:25px;
+width:60%;
 border-radius:2px;
 }
 button {
