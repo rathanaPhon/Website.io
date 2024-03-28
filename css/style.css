@@ -99,7 +99,7 @@ width:60%;
 border-radius:2px;
 }
 button {
- height: 35px;
+ height: 33px;
  background:#e8491d;
  border:0%;
  padding-left: 20px;
@@ -197,7 +197,7 @@ border-radius: 0;
 online:none;
 corsor: pointer;
 margin-top: 5px;
-background: #ffff;
+background: #fffff;
 }
 .card>img { 
 width: 200px;
@@ -220,7 +220,7 @@ footer {
   background: brown;
   margin-bottom: 1%;  
 }
-footer-a {  
+footer-li {  
   color: White;  
   background: brown;
   text-decoration: none;  
