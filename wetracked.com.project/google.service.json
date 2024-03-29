@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "466762392",
-    "github_url": "https://rathanaphon.github.io/wetracked.com/",
+    "github_url": "https://www.wetracked.com/",
     "project_id": "wetracked.com-project",
-    "storage_bucket": "wetracked.com-project.appspot.com"
+    "storage_bucket": "Wetracked.com-project.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:466762392:android:ea412b1a267b4810935927",
         "android_client_info": {
-          "package_name": "rathanaphon.github.io"
+          "package_name": "Wetracked.com"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "466762392-.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "rathanaphon.github.io.",
+            "package_name": "Wetracked.com",
             "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "466762392-.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "rathanaphon.github.io",
+            "package_name": "Wetracked.com",
             "certificate_hash": "82e978eb1421232ea5c0bbe386456dee237815d62e4954c3ace17d7f5c65951a"
           }
         },
