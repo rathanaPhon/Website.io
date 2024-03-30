@@ -105,7 +105,6 @@ button {
  bottom: right;
 }
 html.body{
-font-family: sans-serif;
 margin: 0%;
 background: White;
 }
@@ -226,4 +225,12 @@ footer-li {
 .text{
   padding:1px 10px 1px 10px;
   color:#fffff;
+}
+#map {
+  height: 80%;
+}
+html,body {
+  height: 70%;
+  margin: 0%;
+  padding: 0%;
 }
