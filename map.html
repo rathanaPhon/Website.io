@@ -62,6 +62,12 @@
         ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
 <!-- [END maps_map_simple] -->
 <script type="text/JavaScript">
+function hamMenuClick(){
+  document.getElementById("hamMenu").classList.toggle("active");
+  document.getElementById("ul").classList.toggle("link");
+}
+</script>
+<script type="text/JavaScript">
 let map;
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
@@ -107,11 +113,11 @@ initMap();
         "postalcode": "30",
         "addresscountry": "Cambodia",
         "availability": "https://schema.org/",
-        "cety": "PhomPen"
+        "cetty": "PhomPen"
       },
       "performer": {
         "@type": "PerformingGroup",
-        "name": "rathanaphon"
+        "name": "map"
       },
       "organizer": {
         "@type": "Organization",
