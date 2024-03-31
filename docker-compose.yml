@@ -2,10 +2,10 @@ version: '3.4'
 
 services:
   Webpage networks:
-    image: Webpage
+    image: wedpage:
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: wedpage./Dockerfile
     ports:
       - 8000:8000
     redis:
