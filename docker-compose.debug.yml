@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   Webpage networks:
-    image: Webpage
+    image: Wedpage
     build:
       context: .
       dockerfile: ./Dockerfile
