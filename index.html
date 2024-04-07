@@ -272,13 +272,44 @@ Address :
 <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 <link href="https://cdnjs.cloudflare.com/ajax/Wetracked/amplitudejs/5.3.2/amplitude.min.js
 <script src="https://cdnjs.cloudflare.com/ajax/Wetracked/amplitudejs/5.3.2/amplitude.min.js" integrity="sha512-Q/0FAciD7lgeXgWUoL6/GuhRxRLP7KaAEag7TjKyx5hGXKsQc7Sf6dAL2Fg62Od8oXUYgyKNIBbwA2SwNSQi+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script type="text/javascript">
+ <script type="text/javascript">
     function hamMenuClick(){
     document.getElementById("hamMenu").classList.toggle("active");
     document.getElementById("ul").classList.toggle("link");
    }
    </script>
-    <script type="application/ld+json">
+  <script type="text/javascript">
+  new PerformanceObserver((entryList) => {
+  const entries = entryList.getEntries();
+
+  for (const entry of entries) {
+    // Some resources might have a responseStart value of 0 if they're being
+    // cached, or if a cross-origin resource is served without a
+    // Timing-Allow-Origin header set.
+    if (entry.responseStart > 0) {
+      console.log(`TTFB: ${entry.responseStart}`, entry.name);
+    }
+  }
+}).observe({
+  type: 'resource',
+  buffered: true
+});
+observer.observe({ type: "navigation", buffered: true });
+</script>
+ <script type="text/javascript">
+ // server.mjs
+import { createServer } from 'node:http';
+const server = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World!\n');
+});
+// starts a simple http server locally on port 5001
+server.listen(5001, '127.0.0.1', () => {
+  console.log('Listening on 127.0.0.1:5001');
+});
+// run with `node server.mjs`
+ </script>
+  <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
     "@type": "Organization",
@@ -314,7 +345,6 @@ Address :
     ]
   }
 }
-  </script>
  </script>
 <script type="text/JavaScript">
 map = new
