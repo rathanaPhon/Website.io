@@ -1,11 +1,11 @@
 version: '3.4'
 
 services:
-  Webpage networks:
-    image: wedpage:
+  Wetracked.com:
+    image: Wetracked.com
     build:
       context: .
-      dockerfile: wedpage./Dockerfile
+      dockerfile: Wetracked.com/Dockerfile
     ports:
       - 8000:8000
     redis:
