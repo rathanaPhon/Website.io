@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  Webpage networks:
-    image: Wedpage
+  Wetracked.com:
+    image: Wetracked.com
     build:
       context: .
       dockerfile: ./Dockerfile
