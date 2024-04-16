@@ -1,6 +1,6 @@
 {
   "name": "my_project.chris.ns/",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // 
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  
   "features": {
       "ghcr.io/devcontainers/features/go:1": {
          "version": "1.18"
