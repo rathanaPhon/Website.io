@@ -1,0 +1,35 @@
+{
+  "name": "my_project.chris.ns/",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // 
+  "features": {
+      "ghcr.io/devcontainers/features/go:1": {
+         "version": "1.18"
+    },
+  "ghcr.io/devcontainers/features/docker-in-docker:1": {
+  "version": "latest",
+  "moby": true
+  "name": "vue",
+  "author": "Evan You <chrisrathana@gmail.com>",
+  "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
+  "filename": "chricjs.ns.min.js",
+  "sri": null,
+  "version": "3.2.37",
+  "repository": {
+  "type": "dns",
+  "url": "https://www.chris.ns",
+  },
+  "autoupdate": {
+      "source": "npm",
+       "target": "chris.ns.",
+        "filepag": [
+      {
+           "basePath": "dist",
+            "files": [
+              "**/*.+(js|pag)"
+        ]
+      }
+    ]
+  }
+}
+        
+    
