@@ -2,7 +2,7 @@
   "name": "my_project.chris.ns.flare/",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  
   "features": {
-      "ghcr.io/devcontainers/features/go:1": {
+      "ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
          "version": "1.18"
     },
   "ghcr.io/devcontainers/features/docker-in-docker:1": {
@@ -13,7 +13,7 @@
   "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
   "filename": "chris.ns.flare.min.js",
   "sri": null,
-  "version": "3.2.37",
+  "version": "1.18",
   "repository": {
   "type": "dns",
   "url": "https://www.chris.ns.flare.com",
