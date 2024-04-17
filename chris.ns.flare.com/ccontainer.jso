@@ -20,7 +20,7 @@
   },
   "autoupdate": {
       "source": "npm",
-       "target": "chris.ns.",
+       "target": "chris.ns.flare.com",
         "filepag": [
       {
            "basePath": "dist",
