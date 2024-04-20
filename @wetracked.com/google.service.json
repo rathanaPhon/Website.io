@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_id": "466762392",
-    "url": "https://www.Wetracked.com/",
-    "project_name": "Wetracked.com",
-    "storage_bucket": "Wetracked.com-appspot.com"
+    "url": "https://www.@wetracked.com/",
+    "project_name": "@wetracked.com",
+    "storage_bucket": "@wetracked.com-appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:466762392:android:ea412b1a267b4810935927",
-        "android_client_info": 
-          "package_name": "Wetracked.com"
+        "Android_id": "1:466762392:android:ea412b1a267b4810935927",
+        "wedapp_client_info": 
+          "package_name": "@wetracked.com",
         }
       },
       "oauth_client": [
@@ -18,15 +18,15 @@
           "client_id": "466762392-.apps.googleusercontent.com",
           "client_type": 1,
           "wedapp_info": {
-            "package_name": "wetracked.com",
+            "package_name": "www.@wetracked.com",
             "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
           }
         },
         {
           "client_id": "466762392-.apps.googleusercontent.com",
           "client_type": 1,
-          "android_info": {
-            "package_name": "Wetracked.com",
+          "Android_info": {
+            "package_name": "www.@wetracked.com",
             "certificate_hash": "82e978eb1421232ea5c0bbe386456dee237815d62e4954c3ace17d7f5c65951a"
           }
         },
